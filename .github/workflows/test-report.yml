@@ -1,4 +1,4 @@
-name: Run Selenium Test Suite
+name: Run Selenium BDD
 
 on:
   push:
