@@ -1,0 +1,84 @@
+name: Test Execution and Report Generation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17 and Maven
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'adoptopenjdk'
+          maven-version: '3.8.4'
+
+      - name: Cache Maven dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Generate Cucumber feature files from Excel (if needed)
+        run: mvn compile exec:java -Dexec.mainClass="utilities.FeatureGenerator"
+
+      - name: Run tests with Maven
+        run: mvn clean test
+
+      - name: Generate Cucumber Report
+        run: mvn net.masterthought:maven-cucumber-reporting:generate
+
+      - name: Generate Allure Report
+        run: mvn io.qameta.allure:allure-maven:report
+
+      - name: Upload Cucumber report as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: cucumber-report
+          path: target/cucumber-html-reports
+
+      - name: Upload Allure report as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-report
+          path: target/site/allure-maven-plugin
+
+      - name: Publish Cucumber Report to GitHub Pages
+        if: success()
+        run: |
+          mkdir -p gh-pages
+          cp -r target/cucumber-html-reports/* gh-pages/
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git init
+          git add .
+          git commit -m "Publish cucumber report"
+          git branch -M gh-pages
+          git remote add origin https://github.com/${{ github.repository }}.git
+          git push -f --set-upstream origin gh-pages
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy to GitHub Pages (Cucumber)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./gh-pages

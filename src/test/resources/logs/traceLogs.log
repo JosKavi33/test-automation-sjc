@@ -1,0 +1,682 @@
+22:37:56.195 INFO  AUTOMATION - beforeAll
+22:37:56.201 DEBUG AUTOMATION - Erasing Previous Evidence
+22:37:56.324 INFO  AUTOMATION - before: Validate that the account can be created successfully
+22:37:56.327 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:37:59.443 INFO  AUTOMATION - ? Navigating to SignUp Login Page
+22:37:59.444 INFO  AUTOMATION - ? Navigating to Home Page
+22:38:01.424 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:38:01.427 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:38:01.431 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:38:01.478 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:38:01.479 INFO  AUTOMATION - ? HomePage is Loaded
+22:38:01.483 INFO  AUTOMATION - ? Making Click in Login button
+22:38:02.079 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:38:02.095 INFO  AUTOMATION - ? Navigation to SignUp/Login Page successful. URL: https://www.automationexercise.com/login
+22:38:02.095 INFO  AUTOMATION - ? Waiting for the SignupLoginPage Load
+22:38:02.095 INFO  AUTOMATION - ? Waiting for the Page SignupLogin to load
+22:38:02.124 INFO  AUTOMATION - ? SignupLogin Has Successfully Loaded
+22:38:02.595 INFO  AUTOMATION - ? SignupLoginPage is Loaded
+22:38:02.778 INFO  AUTOMATION - ? Filling the SignUp Form
+22:38:02.928 INFO  AUTOMATION - ? Writing Name in SignUp
+22:38:03.751 INFO  AUTOMATION - ? Writing Email in SignUp
+22:38:03.923 INFO  AUTOMATION - ? Making Click in SignUp
+22:38:04.672 INFO  AUTOMATION - ? The SignUp Form has Been Filled and Continue
+22:38:04.673 INFO  AUTOMATION - ? Waiting for the AccountInformationPage Form to Load
+22:38:04.674 INFO  AUTOMATION - ? Waiting for the Page AccountInformationPage to load
+22:38:04.802 INFO  AUTOMATION - ? AccountInformationPage Has Successfully Loaded
+22:38:04.803 INFO  AUTOMATION - ? AccountInformationPage is Loaded
+22:38:04.803 INFO  AUTOMATION - ? Verifying the AccountInformationPage Form
+22:38:06.131 INFO  AUTOMATION - ? The AccountInformationPage Verification Passed
+22:38:06.132 DEBUG AUTOMATION - ?  Filling the Form
+22:38:06.132 INFO  AUTOMATION - ? Selecting Gender in AccountInformationPage Form
+22:38:06.237 INFO  AUTOMATION - ? Writing Password in AccountInformationPage Form
+22:38:06.348 INFO  AUTOMATION - ? Select Day of Birth in AccountInformationPage Form
+22:38:06.503 INFO  AUTOMATION - ? Select Month of Birth in AccountInformationPage Form
+22:38:06.756 INFO  AUTOMATION - ? Select Year of Birth in AccountInformationPage Form
+22:38:06.888 INFO  AUTOMATION - ? Writing FirstName in Address Information Form
+22:38:07.005 INFO  AUTOMATION - ? Writing LastName in Address Information Form
+22:38:07.093 INFO  AUTOMATION - ? Writing Company in Address Information Form
+22:38:07.263 INFO  AUTOMATION - ? Writing Address1 in Address Information Form
+22:38:07.490 INFO  AUTOMATION - ? Writing Address2 in Address Information Form
+22:38:07.645 INFO  AUTOMATION - ? Selecting Country in Address Information Form
+22:38:07.857 INFO  AUTOMATION - ? Writing State in Address Information Form
+22:38:08.048 INFO  AUTOMATION - ? Writing City in Address Information Form
+22:38:08.183 INFO  AUTOMATION - ? Writing ZipCode in Address Information Form
+22:38:08.284 INFO  AUTOMATION - ? Writing MobileNumber in Address Information Form
+22:38:08.500 INFO  AUTOMATION - ? Clicking Create Account Button
+22:38:09.411 INFO  AUTOMATION - ? The Form has Been Filled
+22:38:09.411 INFO  AUTOMATION - ? Waitting for the Page AccountCreatedPage Load
+22:38:09.411 INFO  AUTOMATION - ? Waiting for the Page AccountCreatedPage to load
+22:38:09.445 INFO  AUTOMATION - ? AccountCreatedPage Has Successfully Loaded
+22:38:09.445 INFO  AUTOMATION - ? AccountCreatedPage is Loaded
+22:38:09.446 INFO  AUTOMATION - ? Verifying the Page AccountCreatedPage
+22:38:09.589 INFO  AUTOMATION - ? The AccountCreatedPage Verification Passed
+22:38:09.594 INFO  AUTOMATION - after: Validate that the account can be created successfully, status: PASSED
+22:38:09.596 DEBUG AUTOMATION - ? Killing the WebDriver
+22:38:09.900 INFO  AUTOMATION - ? WebDriver closed successfully
+22:38:09.959 INFO  AUTOMATION - before: Validate that the user logs in successfully
+22:38:09.959 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:38:11.456 INFO  AUTOMATION - ? Navigating to Login Page
+22:38:11.456 INFO  AUTOMATION - ? Navigating to Home Page
+22:38:13.195 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:38:13.195 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:38:13.196 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:38:13.250 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:38:13.251 INFO  AUTOMATION - ? HomePage is Loaded
+22:38:13.252 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:38:13.253 INFO  AUTOMATION - ? Making Click in Login button
+22:38:14.324 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:38:14.332 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:38:14.334 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:38:14.334 INFO  AUTOMATION - ? Filling the Login Form
+22:38:14.717 INFO  AUTOMATION - ? Writing Email Address in Login
+22:38:14.880 INFO  AUTOMATION - ? Writing Email in Login
+22:38:14.993 INFO  AUTOMATION - ? Making Click in Login
+22:38:16.327 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:38:16.327 INFO  AUTOMATION - ? Verifying the Logged TopBar
+22:38:16.638 INFO  AUTOMATION - ? TopBar after login successfully verified.
+22:38:16.639 INFO  AUTOMATION - after: Validate that the user logs in successfully, status: PASSED
+22:38:16.639 DEBUG AUTOMATION - ? Killing the WebDriver
+22:38:16.901 INFO  AUTOMATION - ? WebDriver closed successfully
+22:38:16.921 INFO  AUTOMATION - before: Verify that the Signup/Login page loads correctly
+22:38:16.921 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:38:18.023 INFO  AUTOMATION - ? Navigating to SignUp Login Page
+22:38:18.023 INFO  AUTOMATION - ? Navigating to Home Page
+22:38:20.047 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:38:20.048 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:38:20.049 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:38:20.272 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:38:20.274 INFO  AUTOMATION - ? HomePage is Loaded
+22:38:20.275 INFO  AUTOMATION - ? Making Click in Login button
+22:38:21.528 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:38:21.543 INFO  AUTOMATION - ? Navigation to SignUp/Login Page successful. URL: https://www.automationexercise.com/login
+22:38:21.543 INFO  AUTOMATION - ? Waiting for the SignupLoginPage Load
+22:38:21.543 INFO  AUTOMATION - ? Waiting for the Page SignupLogin to load
+22:38:21.582 INFO  AUTOMATION - ? SignupLogin Has Successfully Loaded
+22:38:22.020 INFO  AUTOMATION - ? SignupLoginPage is Loaded
+22:38:22.023 INFO  AUTOMATION - ? Verifying the SignupLoginPage Forms
+22:38:22.386 INFO  AUTOMATION - ? The SignupLoginPage Forms Verification Passed
+22:38:22.388 INFO  AUTOMATION - after: Verify that the Signup/Login page loads correctly, status: PASSED
+22:38:22.388 DEBUG AUTOMATION - ? Killing the WebDriver
+22:38:22.666 INFO  AUTOMATION - ? WebDriver closed successfully
+22:38:22.690 INFO  AUTOMATION - before: Verify that the product links in the cart are correct
+22:38:22.690 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:38:23.937 INFO  AUTOMATION - ? Navigating to Shopping Cart Page and Deleting Previous Items
+22:38:23.937 INFO  AUTOMATION - ? Navigating to Shopping Cart Page
+22:38:23.937 INFO  AUTOMATION - ? Navigating to Login Page
+22:38:23.937 INFO  AUTOMATION - ? Navigating to Home Page
+22:38:25.832 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:38:25.833 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:38:25.833 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:38:25.871 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:38:25.871 INFO  AUTOMATION - ? HomePage is Loaded
+22:38:25.871 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:38:25.872 INFO  AUTOMATION - ? Making Click in Login button
+22:38:26.587 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:38:26.608 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:38:26.608 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:38:26.608 INFO  AUTOMATION - ? Filling the Login Form
+22:38:26.612 INFO  AUTOMATION - ? Writing Email Address in Login
+22:38:26.866 INFO  AUTOMATION - ? Writing Email in Login
+22:38:27.003 INFO  AUTOMATION - ? Making Click in Login
+22:38:27.632 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:38:27.632 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:38:27.633 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:38:28.513 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:38:28.513 INFO  AUTOMATION - ? TopBar is Loaded
+22:38:28.513 INFO  AUTOMATION - ? Making Click in Cart button
+22:38:29.135 INFO  AUTOMATION - ? The Cart button has Been Clicked
+22:38:29.159 INFO  AUTOMATION - ? Navigation to Shopping Cart Page successful. URL: https://www.automationexercise.com/view_cart
+22:38:29.159 INFO  AUTOMATION - ? Waiting the CartPage Load
+22:38:29.159 INFO  AUTOMATION - ? Waiting for the Page CartPage to load
+22:38:29.184 INFO  AUTOMATION - ? CartPage Has Successfully Loaded
+22:38:29.185 INFO  AUTOMATION - ? CartPage is Loaded
+22:38:29.197 INFO  AUTOMATION - ?? Deleted Previous Products
+22:38:29.955 INFO  AUTOMATION - ?? Deleted Previous Products
+22:38:30.585 INFO  AUTOMATION - ?? Deleted Previous Products
+22:38:31.235 INFO  AUTOMATION - ?? Deleted Previous Products
+22:38:31.855 INFO  AUTOMATION - ?? Deleted Previous Products
+22:38:32.525 INFO  AUTOMATION - ? All Previous Products Deleted.
+22:38:32.525 INFO  AUTOMATION - ?? Navigating to Products Page
+22:38:32.525 INFO  AUTOMATION - ? Making Click in Here link button
+22:38:34.014 INFO  AUTOMATION - ? hereLinkButton Has Been Clicked
+22:38:34.026 INFO  AUTOMATION - ? Waiting ProductsPage
+22:38:34.026 INFO  AUTOMATION - ? Waiting for the Page ProductsPage to load
+22:38:34.094 INFO  AUTOMATION - ? ProductsPage Has Successfully Loaded
+22:38:34.094 INFO  AUTOMATION - ? ProductsPage is Loaded
+22:38:34.108 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:38:34.109 INFO  AUTOMATION - ? Making Click in Cart button
+22:38:35.040 INFO  AUTOMATION - ? The Cart button has Been Clicked
+22:38:35.040 INFO  AUTOMATION - ? Waiting the CartPage Load
+22:38:35.040 INFO  AUTOMATION - ? Waiting for the Page CartPage to load
+22:38:35.092 INFO  AUTOMATION - ? CartPage Has Successfully Loaded
+22:38:35.092 INFO  AUTOMATION - ? CartPage is Loaded
+22:38:35.445 INFO  AUTOMATION - ? Verifying the href link products
+22:38:35.554 INFO  AUTOMATION - ? The href Links Products Passed.
+22:38:35.555 INFO  AUTOMATION - after: Verify that the product links in the cart are correct, status: PASSED
+22:38:35.556 DEBUG AUTOMATION - ? Killing the WebDriver
+22:38:35.914 INFO  AUTOMATION - ? WebDriver closed successfully
+22:38:35.937 INFO  AUTOMATION - before: Verify that the Contact Us page loads correctly
+22:38:35.937 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:38:37.413 INFO  AUTOMATION - ? Navigating to Contact Us Page
+22:38:37.414 INFO  AUTOMATION - ? Navigating to Login Page
+22:38:37.414 INFO  AUTOMATION - ? Navigating to Home Page
+22:38:39.258 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:38:39.259 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:38:39.259 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:38:39.309 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:38:39.310 INFO  AUTOMATION - ? HomePage is Loaded
+22:38:39.310 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:38:39.310 INFO  AUTOMATION - ? Making Click in Login button
+22:38:40.188 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:38:40.203 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:38:40.203 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:38:40.203 INFO  AUTOMATION - ? Filling the Login Form
+22:38:40.208 INFO  AUTOMATION - ? Writing Email Address in Login
+22:38:40.652 INFO  AUTOMATION - ? Writing Email in Login
+22:38:40.760 INFO  AUTOMATION - ? Making Click in Login
+22:38:42.078 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:38:42.078 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:38:42.078 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:38:42.326 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:38:42.326 INFO  AUTOMATION - ? TopBar is Loaded
+22:38:42.326 INFO  AUTOMATION - ? Making Click in ContacUs button
+22:38:43.490 INFO  AUTOMATION - ? The ContactUs button has Been Clicked
+22:38:43.498 INFO  AUTOMATION - ? Navigation to Contact Us Page successful. URL: https://www.automationexercise.com/contact_us
+22:38:43.498 INFO  AUTOMATION - ? Waiting ProductsPage
+22:38:43.498 INFO  AUTOMATION - ? Waiting for the Page ContactUsPage to load
+22:38:43.533 INFO  AUTOMATION - ? ContactUsPage Has Successfully Loaded
+22:38:43.533 INFO  AUTOMATION - ? ProductsPage is Loaded
+22:38:43.533 INFO  AUTOMATION - ? Verifying ContactUsPage
+22:38:43.825 INFO  AUTOMATION - ? The ContactUsPage Verification Passed
+22:38:43.825 INFO  AUTOMATION - after: Verify that the Contact Us page loads correctly, status: PASSED
+22:38:43.826 DEBUG AUTOMATION - ? Killing the WebDriver
+22:38:44.085 INFO  AUTOMATION - ? WebDriver closed successfully
+22:38:44.103 INFO  AUTOMATION - before: Send a message through the Contact Us form
+22:38:44.103 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:38:45.607 INFO  AUTOMATION - ? Navigating to Contact Us Page
+22:38:45.607 INFO  AUTOMATION - ? Navigating to Login Page
+22:38:45.608 INFO  AUTOMATION - ? Navigating to Home Page
+22:38:47.341 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:38:47.341 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:38:47.341 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:38:47.379 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:38:47.379 INFO  AUTOMATION - ? HomePage is Loaded
+22:38:47.379 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:38:47.379 INFO  AUTOMATION - ? Making Click in Login button
+22:38:47.908 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:38:47.923 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:38:47.923 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:38:47.923 INFO  AUTOMATION - ? Filling the Login Form
+22:38:47.928 INFO  AUTOMATION - ? Writing Email Address in Login
+22:38:48.286 INFO  AUTOMATION - ? Writing Email in Login
+22:38:48.457 INFO  AUTOMATION - ? Making Click in Login
+22:38:49.595 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:38:49.595 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:38:49.595 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:38:49.629 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:38:49.631 INFO  AUTOMATION - ? TopBar is Loaded
+22:38:49.631 INFO  AUTOMATION - ? Making Click in ContacUs button
+22:38:50.870 INFO  AUTOMATION - ? The ContactUs button has Been Clicked
+22:38:50.882 INFO  AUTOMATION - ? Navigation to Contact Us Page successful. URL: https://www.automationexercise.com/contact_us
+22:38:50.883 INFO  AUTOMATION - ? Waiting ProductsPage
+22:38:50.884 INFO  AUTOMATION - ? Waiting for the Page ContactUsPage to load
+22:38:50.931 INFO  AUTOMATION - ? ContactUsPage Has Successfully Loaded
+22:38:50.931 INFO  AUTOMATION - ? ProductsPage is Loaded
+22:38:50.932 INFO  AUTOMATION - ? Filling ContactUs Form
+22:38:51.955 INFO  AUTOMATION - ? The Form has Been Filled
+22:38:51.956 INFO  AUTOMATION - ? Verifying Success Message
+22:38:52.019 INFO  AUTOMATION - ? The Success Message Verification Passed
+22:38:52.019 INFO  AUTOMATION - after: Send a message through the Contact Us form, status: PASSED
+22:38:52.020 DEBUG AUTOMATION - ? Killing the WebDriver
+22:38:52.259 INFO  AUTOMATION - ? WebDriver closed successfully
+22:38:52.291 INFO  AUTOMATION - before: Verify that a single product's details are correct
+22:38:52.291 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:38:53.525 INFO  AUTOMATION - ?? Navigating to Products Page
+22:38:53.526 INFO  AUTOMATION - ? Navigating to Login Page
+22:38:53.526 INFO  AUTOMATION - ? Navigating to Home Page
+22:38:55.422 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:38:55.422 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:38:55.423 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:38:55.680 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:38:55.682 INFO  AUTOMATION - ? HomePage is Loaded
+22:38:55.682 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:38:55.682 INFO  AUTOMATION - ? Making Click in Login button
+22:38:56.420 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:38:56.433 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:38:56.434 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:38:56.434 INFO  AUTOMATION - ? Filling the Login Form
+22:38:56.437 INFO  AUTOMATION - ? Writing Email Address in Login
+22:38:56.793 INFO  AUTOMATION - ? Writing Email in Login
+22:38:56.901 INFO  AUTOMATION - ? Making Click in Login
+22:38:58.366 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:38:58.366 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:38:58.366 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:38:58.409 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:38:58.410 INFO  AUTOMATION - ? TopBar is Loaded
+22:38:58.410 INFO  AUTOMATION - ? Making Click in Products button
+22:38:59.596 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:38:59.603 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:38:59.604 INFO  AUTOMATION - ? Verifying ProductsPage
+22:38:59.794 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:38:59.797 INFO  AUTOMATION - ? Verifying Name and Price For Excel Products
+22:38:59.817 INFO  AUTOMATION - ? Products Found on the Page: 34
+22:38:59.817 INFO  AUTOMATION - ? Looking: Stylish Dress - Expected Price: 1500
+22:39:00.165 DEBUG AUTOMATION - ? Product Matched: Stylish Dress - Expected Price: 1500, Found: 1500
+22:39:00.166 INFO  AUTOMATION - after: Verify that a single product's details are correct, status: PASSED
+22:39:00.166 DEBUG AUTOMATION - ? Killing the WebDriver
+22:39:00.671 INFO  AUTOMATION - ? WebDriver closed successfully
+22:39:00.699 INFO  AUTOMATION - before: Verify that a single product's details are correct
+22:39:00.699 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:39:01.891 INFO  AUTOMATION - ?? Navigating to Products Page
+22:39:01.891 INFO  AUTOMATION - ? Navigating to Login Page
+22:39:01.891 INFO  AUTOMATION - ? Navigating to Home Page
+22:39:03.813 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:39:03.813 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:39:03.814 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:39:03.853 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:39:03.854 INFO  AUTOMATION - ? HomePage is Loaded
+22:39:03.854 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:39:03.854 INFO  AUTOMATION - ? Making Click in Login button
+22:39:04.715 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:39:04.728 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:39:04.730 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:39:04.730 INFO  AUTOMATION - ? Filling the Login Form
+22:39:04.734 INFO  AUTOMATION - ? Writing Email Address in Login
+22:39:05.061 INFO  AUTOMATION - ? Writing Email in Login
+22:39:05.389 INFO  AUTOMATION - ? Making Click in Login
+22:39:06.931 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:39:06.931 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:39:06.931 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:39:06.962 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:39:06.962 INFO  AUTOMATION - ? TopBar is Loaded
+22:39:06.962 INFO  AUTOMATION - ? Making Click in Products button
+22:39:08.285 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:39:08.294 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:39:08.295 INFO  AUTOMATION - ? Verifying ProductsPage
+22:39:08.498 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:39:08.499 INFO  AUTOMATION - ? Verifying Name and Price For Excel Products
+22:39:08.517 INFO  AUTOMATION - ? Products Found on the Page: 34
+22:39:08.517 INFO  AUTOMATION - ? Looking: Summer White Top - Expected Price: 400
+22:39:08.766 DEBUG AUTOMATION - ? Product Matched: Summer White Top - Expected Price: 400, Found: 400
+22:39:08.767 INFO  AUTOMATION - after: Verify that a single product's details are correct, status: PASSED
+22:39:08.767 DEBUG AUTOMATION - ? Killing the WebDriver
+22:39:08.968 INFO  AUTOMATION - ? WebDriver closed successfully
+22:39:08.982 INFO  AUTOMATION - before: Verify that a single product's details are correct
+22:39:08.982 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:39:10.223 INFO  AUTOMATION - ?? Navigating to Products Page
+22:39:10.224 INFO  AUTOMATION - ? Navigating to Login Page
+22:39:10.224 INFO  AUTOMATION - ? Navigating to Home Page
+22:39:12.050 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:39:12.050 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:39:12.050 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:39:12.190 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:39:12.190 INFO  AUTOMATION - ? HomePage is Loaded
+22:39:12.190 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:39:12.190 INFO  AUTOMATION - ? Making Click in Login button
+22:39:12.983 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:39:12.997 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:39:12.997 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:39:12.997 INFO  AUTOMATION - ? Filling the Login Form
+22:39:13.001 INFO  AUTOMATION - ? Writing Email Address in Login
+22:39:13.263 INFO  AUTOMATION - ? Writing Email in Login
+22:39:13.361 INFO  AUTOMATION - ? Making Click in Login
+22:39:14.814 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:39:14.814 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:39:14.814 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:39:14.844 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:39:14.845 INFO  AUTOMATION - ? TopBar is Loaded
+22:39:14.845 INFO  AUTOMATION - ? Making Click in Products button
+22:39:16.200 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:39:16.212 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:39:16.213 INFO  AUTOMATION - ? Verifying ProductsPage
+22:39:16.498 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:39:16.499 INFO  AUTOMATION - ? Verifying Name and Price For Excel Products
+22:39:16.517 INFO  AUTOMATION - ? Products Found on the Page: 34
+22:39:16.517 INFO  AUTOMATION - ? Looking: Fancy Green Top - Expected Price: 700
+22:39:16.899 DEBUG AUTOMATION - ? Product Matched: Fancy Green Top - Expected Price: 700, Found: 700
+22:39:16.900 INFO  AUTOMATION - after: Verify that a single product's details are correct, status: PASSED
+22:39:16.900 DEBUG AUTOMATION - ? Killing the WebDriver
+22:39:17.120 INFO  AUTOMATION - ? WebDriver closed successfully
+22:39:17.132 INFO  AUTOMATION - before: Verify that a single product's details are correct
+22:39:17.132 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:39:18.233 INFO  AUTOMATION - ?? Navigating to Products Page
+22:39:18.234 INFO  AUTOMATION - ? Navigating to Login Page
+22:39:18.234 INFO  AUTOMATION - ? Navigating to Home Page
+22:39:20.043 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:39:20.043 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:39:20.043 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:39:20.097 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:39:20.097 INFO  AUTOMATION - ? HomePage is Loaded
+22:39:20.097 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:39:20.097 INFO  AUTOMATION - ? Making Click in Login button
+22:39:20.952 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:39:20.961 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:39:20.961 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:39:20.961 INFO  AUTOMATION - ? Filling the Login Form
+22:39:20.964 INFO  AUTOMATION - ? Writing Email Address in Login
+22:39:21.268 INFO  AUTOMATION - ? Writing Email in Login
+22:39:21.465 INFO  AUTOMATION - ? Making Click in Login
+22:39:22.825 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:39:22.825 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:39:22.825 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:39:22.862 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:39:22.862 INFO  AUTOMATION - ? TopBar is Loaded
+22:39:22.862 INFO  AUTOMATION - ? Making Click in Products button
+22:39:24.102 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:39:24.111 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:39:24.112 INFO  AUTOMATION - ? Verifying ProductsPage
+22:39:24.394 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:39:24.394 INFO  AUTOMATION - ? Verifying Name and Price For Excel Products
+22:39:24.412 INFO  AUTOMATION - ? Products Found on the Page: 34
+22:39:24.412 INFO  AUTOMATION - ? Looking: Madame Top For Women - Expected Price: 1000
+22:39:24.727 DEBUG AUTOMATION - ? Product Matched: Madame Top For Women - Expected Price: 1000, Found: 1000
+22:39:24.727 INFO  AUTOMATION - after: Verify that a single product's details are correct, status: PASSED
+22:39:24.727 DEBUG AUTOMATION - ? Killing the WebDriver
+22:39:24.983 INFO  AUTOMATION - ? WebDriver closed successfully
+22:39:25.001 INFO  AUTOMATION - before: Verify the HomePage UI
+22:39:25.002 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:39:26.411 INFO  AUTOMATION - ? Navigating to Home Page
+22:39:28.034 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:39:28.035 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:39:28.035 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:39:28.119 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:39:28.120 INFO  AUTOMATION - ? HomePage is Loaded
+22:39:28.120 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:39:28.120 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:39:28.147 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:39:28.148 INFO  AUTOMATION - ? HomePage is Loaded
+22:39:28.148 INFO  AUTOMATION - ? Verifying HomePage
+22:39:28.171 INFO  AUTOMATION - ? The HomePage Verification Passed
+22:39:28.173 INFO  AUTOMATION - ? Verifying the TopBar
+22:39:28.483 INFO  AUTOMATION - ? The TopBar Verification Passed
+22:39:28.483 INFO  AUTOMATION - after: Verify the HomePage UI, status: PASSED
+22:39:28.484 DEBUG AUTOMATION - ? Killing the WebDriver
+22:39:28.695 INFO  AUTOMATION - ? WebDriver closed successfully
+22:39:28.706 INFO  AUTOMATION - before: Verify the Product Details Page loads correctly
+22:39:28.707 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:39:29.865 INFO  AUTOMATION - ?? Navigating to Products Page
+22:39:29.865 INFO  AUTOMATION - ? Navigating to Login Page
+22:39:29.865 INFO  AUTOMATION - ? Navigating to Home Page
+22:39:31.732 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:39:31.733 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:39:31.734 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:39:31.840 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:39:31.841 INFO  AUTOMATION - ? HomePage is Loaded
+22:39:31.841 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:39:31.841 INFO  AUTOMATION - ? Making Click in Login button
+22:39:32.564 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:39:32.577 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:39:32.577 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:39:32.577 INFO  AUTOMATION - ? Filling the Login Form
+22:39:32.580 INFO  AUTOMATION - ? Writing Email Address in Login
+22:39:32.733 INFO  AUTOMATION - ? Writing Email in Login
+22:39:32.906 INFO  AUTOMATION - ? Making Click in Login
+22:39:34.384 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:39:34.384 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:39:34.384 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:39:34.429 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:39:34.429 INFO  AUTOMATION - ? TopBar is Loaded
+22:39:34.429 INFO  AUTOMATION - ? Making Click in Products button
+22:39:35.611 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:39:35.628 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:39:35.630 INFO  AUTOMATION - ? Verifying ProductsPage
+22:39:35.851 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:39:35.852 INFO  AUTOMATION - ? Making Click at First Product Detail
+22:39:36.894 INFO  AUTOMATION - ? The detailProductInput, whit index '1' has Been Clicked
+22:39:36.894 INFO  AUTOMATION - ? Waiting DetailsProductPage
+22:39:36.894 INFO  AUTOMATION - ? Waiting for the Page DetailsProductPage to load
+22:39:36.927 INFO  AUTOMATION - ? DetailsProductPage Has Successfully Loaded
+22:39:36.927 INFO  AUTOMATION - ? DetailsProductPage is Loaded
+22:39:36.928 INFO  AUTOMATION - ? Verifying DetailsProductPage
+22:39:37.366 INFO  AUTOMATION - ? The DetailsProductPage Verification Passed
+22:39:37.368 INFO  AUTOMATION - after: Verify the Product Details Page loads correctly, status: PASSED
+22:39:37.368 DEBUG AUTOMATION - ? Killing the WebDriver
+22:39:37.594 INFO  AUTOMATION - ? WebDriver closed successfully
+22:39:37.606 INFO  AUTOMATION - before: Submit a product review
+22:39:37.607 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:39:38.742 INFO  AUTOMATION - ?? Navigating to Products Page
+22:39:38.742 INFO  AUTOMATION - ? Navigating to Login Page
+22:39:38.742 INFO  AUTOMATION - ? Navigating to Home Page
+22:39:40.498 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:39:40.498 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:39:40.498 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:39:40.687 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:39:40.687 INFO  AUTOMATION - ? HomePage is Loaded
+22:39:40.687 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:39:40.688 INFO  AUTOMATION - ? Making Click in Login button
+22:39:41.453 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:39:41.470 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:39:41.470 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:39:41.470 INFO  AUTOMATION - ? Filling the Login Form
+22:39:41.475 INFO  AUTOMATION - ? Writing Email Address in Login
+22:39:41.832 INFO  AUTOMATION - ? Writing Email in Login
+22:39:41.940 INFO  AUTOMATION - ? Making Click in Login
+22:39:43.254 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:39:43.254 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:39:43.254 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:39:43.296 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:39:43.296 INFO  AUTOMATION - ? TopBar is Loaded
+22:39:43.296 INFO  AUTOMATION - ? Making Click in Products button
+22:39:44.468 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:39:44.485 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:39:44.486 INFO  AUTOMATION - ? Verifying ProductsPage
+22:39:44.733 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:39:44.733 INFO  AUTOMATION - ? Making Click at First Product Detail
+22:39:45.495 INFO  AUTOMATION - ? The detailProductInput, whit index '1' has Been Clicked
+22:39:45.495 INFO  AUTOMATION - ? Waiting DetailsProductPage
+22:39:45.495 INFO  AUTOMATION - ? Waiting for the Page DetailsProductPage to load
+22:39:45.540 INFO  AUTOMATION - ? DetailsProductPage Has Successfully Loaded
+22:39:45.541 INFO  AUTOMATION - ? DetailsProductPage is Loaded
+22:39:45.541 INFO  AUTOMATION - ? Filling the Review Form
+22:39:45.543 INFO  AUTOMATION - Filling the Review Form
+22:39:46.182 INFO  AUTOMATION - ? The Review Form Verification and the Form Filled  Passed
+22:39:46.183 INFO  AUTOMATION - ? Verifying the Sended Message
+22:39:46.232 INFO  AUTOMATION - ? The Message Verification Passed
+22:39:46.234 INFO  AUTOMATION - after: Submit a product review, status: PASSED
+22:39:46.234 DEBUG AUTOMATION - ? Killing the WebDriver
+22:39:46.446 INFO  AUTOMATION - ? WebDriver closed successfully
+22:39:46.459 INFO  AUTOMATION - before: Add multiple products to the shopping cart
+22:39:46.459 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:39:47.595 INFO  AUTOMATION - ? Navigating to Shopping Cart Page and Deleting Previous Items
+22:39:47.596 INFO  AUTOMATION - ? Navigating to Shopping Cart Page
+22:39:47.596 INFO  AUTOMATION - ? Navigating to Login Page
+22:39:47.596 INFO  AUTOMATION - ? Navigating to Home Page
+22:39:49.669 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:39:49.669 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:39:49.669 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:39:49.703 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:39:49.703 INFO  AUTOMATION - ? HomePage is Loaded
+22:39:49.703 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:39:49.703 INFO  AUTOMATION - ? Making Click in Login button
+22:39:50.359 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:39:50.372 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:39:50.374 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:39:50.374 INFO  AUTOMATION - ? Filling the Login Form
+22:39:50.380 INFO  AUTOMATION - ? Writing Email Address in Login
+22:39:50.731 INFO  AUTOMATION - ? Writing Email in Login
+22:39:50.844 INFO  AUTOMATION - ? Making Click in Login
+22:39:52.260 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:39:52.260 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:39:52.260 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:39:52.295 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:39:52.295 INFO  AUTOMATION - ? TopBar is Loaded
+22:39:52.295 INFO  AUTOMATION - ? Making Click in Cart button
+22:39:53.080 INFO  AUTOMATION - ? The Cart button has Been Clicked
+22:39:53.096 INFO  AUTOMATION - ? Navigation to Shopping Cart Page successful. URL: https://www.automationexercise.com/view_cart
+22:39:53.096 INFO  AUTOMATION - ? Waiting the CartPage Load
+22:39:53.097 INFO  AUTOMATION - ? Waiting for the Page CartPage to load
+22:39:53.126 INFO  AUTOMATION - ? CartPage Has Successfully Loaded
+22:39:53.126 INFO  AUTOMATION - ? CartPage is Loaded
+22:40:03.170 INFO  AUTOMATION - ? All Previous Products Deleted.
+22:40:03.171 INFO  AUTOMATION - ?? Navigating to Products Page
+22:40:03.171 INFO  AUTOMATION - ? Making Click in Here link button
+22:40:04.428 INFO  AUTOMATION - ? hereLinkButton Has Been Clicked
+22:40:04.428 INFO  AUTOMATION - ? Waiting ProductsPage
+22:40:04.428 INFO  AUTOMATION - ? Waiting for the Page ProductsPage to load
+22:40:04.459 INFO  AUTOMATION - ? ProductsPage Has Successfully Loaded
+22:40:04.460 INFO  AUTOMATION - ? ProductsPage is Loaded
+22:40:04.467 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:40:04.468 INFO  AUTOMATION - ? Verifying ProductsPage
+22:40:04.671 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:40:04.671 INFO  AUTOMATION - ? Adding 5 Products to the Shopping Cart
+22:40:04.788 INFO  AUTOMATION - ? Product ID: 1
+22:40:05.530 INFO  AUTOMATION - ? Product ID: 2
+22:40:06.255 INFO  AUTOMATION - ? Product ID: 3
+22:40:06.929 INFO  AUTOMATION - ? Product ID: 4
+22:40:07.591 INFO  AUTOMATION - ? Product ID: 5
+22:40:09.082 INFO  AUTOMATION - ? Successfully Added 5 Products to the Cart
+22:40:09.082 INFO  AUTOMATION - ? Waiting the CartPage Load
+22:40:09.082 INFO  AUTOMATION - ? Waiting for the Page CartPage to load
+22:40:09.101 INFO  AUTOMATION - ? CartPage Has Successfully Loaded
+22:40:09.103 INFO  AUTOMATION - ? CartPage is Loaded
+22:40:09.103 INFO  AUTOMATION - ? Verifying that 5 Products were Added
+22:40:09.124 INFO  AUTOMATION - ? The Added Products Verification Passed.
+22:40:09.125 INFO  AUTOMATION - after: Add multiple products to the shopping cart, status: PASSED
+22:40:09.125 DEBUG AUTOMATION - ? Killing the WebDriver
+22:40:09.412 INFO  AUTOMATION - ? WebDriver closed successfully
+22:40:09.422 INFO  AUTOMATION - before: Verify that a single product's details are correct
+22:40:09.424 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:40:10.563 INFO  AUTOMATION - ?? Navigating to Products Page
+22:40:10.563 INFO  AUTOMATION - ? Navigating to Login Page
+22:40:10.563 INFO  AUTOMATION - ? Navigating to Home Page
+22:40:12.269 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:40:12.269 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:40:12.269 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:40:12.312 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:40:12.312 INFO  AUTOMATION - ? HomePage is Loaded
+22:40:12.312 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:40:12.312 INFO  AUTOMATION - ? Making Click in Login button
+22:40:14.649 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:40:14.668 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:40:14.669 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:40:14.669 INFO  AUTOMATION - ? Filling the Login Form
+22:40:14.676 INFO  AUTOMATION - ? Writing Email Address in Login
+22:40:15.340 INFO  AUTOMATION - ? Writing Email in Login
+22:40:15.630 INFO  AUTOMATION - ? Making Click in Login
+22:40:15.983 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:40:15.984 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:40:15.984 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:40:17.397 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:40:17.397 INFO  AUTOMATION - ? TopBar is Loaded
+22:40:17.397 INFO  AUTOMATION - ? Making Click in Products button
+22:40:19.364 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:40:19.378 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:40:19.379 INFO  AUTOMATION - ? Verifying ProductsPage
+22:40:19.997 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:40:19.999 INFO  AUTOMATION - ? Verifying Name and Price For Excel Products
+22:40:20.042 INFO  AUTOMATION - ? Products Found on the Page: 34
+22:40:20.042 INFO  AUTOMATION - ? Looking: Stylish Dress - Expected Price: 1500
+22:40:20.500 DEBUG AUTOMATION - ? Product Matched: Stylish Dress - Expected Price: 1500, Found: 1500
+22:40:20.501 INFO  AUTOMATION - after: Verify that a single product's details are correct, status: PASSED
+22:40:20.502 DEBUG AUTOMATION - ? Killing the WebDriver
+22:40:20.960 INFO  AUTOMATION - ? WebDriver closed successfully
+22:40:20.978 INFO  AUTOMATION - before: Verify that a single product's details are correct
+22:40:20.978 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:40:21.952 INFO  AUTOMATION - ?? Navigating to Products Page
+22:40:21.952 INFO  AUTOMATION - ? Navigating to Login Page
+22:40:21.952 INFO  AUTOMATION - ? Navigating to Home Page
+22:40:23.360 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:40:23.360 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:40:23.361 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:40:23.440 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:40:23.440 INFO  AUTOMATION - ? HomePage is Loaded
+22:40:23.440 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:40:23.440 INFO  AUTOMATION - ? Making Click in Login button
+22:40:24.151 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:40:24.167 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:40:24.167 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:40:24.167 INFO  AUTOMATION - ? Filling the Login Form
+22:40:24.172 INFO  AUTOMATION - ? Writing Email Address in Login
+22:40:24.440 INFO  AUTOMATION - ? Writing Email in Login
+22:40:24.587 INFO  AUTOMATION - ? Making Click in Login
+22:40:26.102 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:40:26.102 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:40:26.102 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:40:26.142 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:40:26.142 INFO  AUTOMATION - ? TopBar is Loaded
+22:40:26.142 INFO  AUTOMATION - ? Making Click in Products button
+22:40:27.271 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:40:27.281 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:40:27.283 INFO  AUTOMATION - ? Verifying ProductsPage
+22:40:27.454 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:40:27.455 INFO  AUTOMATION - ? Verifying Name and Price For Excel Products
+22:40:27.468 INFO  AUTOMATION - ? Products Found on the Page: 34
+22:40:27.468 INFO  AUTOMATION - ? Looking: Summer White Top - Expected Price: 400
+22:40:27.693 DEBUG AUTOMATION - ? Product Matched: Summer White Top - Expected Price: 400, Found: 400
+22:40:27.693 INFO  AUTOMATION - after: Verify that a single product's details are correct, status: PASSED
+22:40:27.693 DEBUG AUTOMATION - ? Killing the WebDriver
+22:40:27.868 INFO  AUTOMATION - ? WebDriver closed successfully
+22:40:27.879 INFO  AUTOMATION - before: Verify that a single product's details are correct
+22:40:27.879 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:40:28.854 INFO  AUTOMATION - ?? Navigating to Products Page
+22:40:28.854 INFO  AUTOMATION - ? Navigating to Login Page
+22:40:28.854 INFO  AUTOMATION - ? Navigating to Home Page
+22:40:30.653 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:40:30.653 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:40:30.653 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:40:30.743 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:40:30.743 INFO  AUTOMATION - ? HomePage is Loaded
+22:40:30.743 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:40:30.743 INFO  AUTOMATION - ? Making Click in Login button
+22:40:31.508 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:40:31.524 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:40:31.524 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:40:31.524 INFO  AUTOMATION - ? Filling the Login Form
+22:40:31.528 INFO  AUTOMATION - ? Writing Email Address in Login
+22:40:31.778 INFO  AUTOMATION - ? Writing Email in Login
+22:40:31.910 INFO  AUTOMATION - ? Making Click in Login
+22:40:33.422 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:40:33.423 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:40:33.423 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:40:33.466 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:40:33.467 INFO  AUTOMATION - ? TopBar is Loaded
+22:40:33.467 INFO  AUTOMATION - ? Making Click in Products button
+22:40:34.668 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:40:34.678 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:40:34.678 INFO  AUTOMATION - ? Verifying ProductsPage
+22:40:34.867 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:40:34.868 INFO  AUTOMATION - ? Verifying Name and Price For Excel Products
+22:40:34.882 INFO  AUTOMATION - ? Products Found on the Page: 34
+22:40:34.882 INFO  AUTOMATION - ? Looking: Fancy Green Top - Expected Price: 700
+22:40:35.191 DEBUG AUTOMATION - ? Product Matched: Fancy Green Top - Expected Price: 700, Found: 700
+22:40:35.193 INFO  AUTOMATION - after: Verify that a single product's details are correct, status: PASSED
+22:40:35.193 DEBUG AUTOMATION - ? Killing the WebDriver
+22:40:35.393 INFO  AUTOMATION - ? WebDriver closed successfully
+22:40:35.405 INFO  AUTOMATION - before: Verify that a single product's details are correct
+22:40:35.405 DEBUG AUTOMATION - ? Initializing local driver: CHROME | Headless: true
+22:40:36.670 INFO  AUTOMATION - ?? Navigating to Products Page
+22:40:36.670 INFO  AUTOMATION - ? Navigating to Login Page
+22:40:36.670 INFO  AUTOMATION - ? Navigating to Home Page
+22:40:38.218 INFO  AUTOMATION - ? Navigation to Home Page successful. URL: https://www.automationexercise.com/
+22:40:38.218 INFO  AUTOMATION - ? Waiting for HomePage Load
+22:40:38.219 INFO  AUTOMATION - ? Waiting for the Page HomePage to load
+22:40:38.262 INFO  AUTOMATION - ? HomePage Has Successfully Loaded
+22:40:38.262 INFO  AUTOMATION - ? HomePage is Loaded
+22:40:38.262 INFO  AUTOMATION - ? Clicking Login button on TopBar
+22:40:38.262 INFO  AUTOMATION - ? Making Click in Login button
+22:40:38.932 INFO  AUTOMATION - ? The Login button has Been Clicked
+22:40:38.943 INFO  AUTOMATION - ? Navigation to Login Page successful. URL: https://www.automationexercise.com/login
+22:40:38.943 INFO  AUTOMATION - ? Filling login form with valid credentials
+22:40:38.943 INFO  AUTOMATION - ? Filling the Login Form
+22:40:38.945 INFO  AUTOMATION - ? Writing Email Address in Login
+22:40:39.030 INFO  AUTOMATION - ? Writing Email in Login
+22:40:39.211 INFO  AUTOMATION - ? Making Click in Login
+22:40:40.551 INFO  AUTOMATION - ? The Login Form has Been Filled and Continue
+22:40:40.551 INFO  AUTOMATION - ? Waiting the TopBar Load
+22:40:40.552 INFO  AUTOMATION - ? Waiting for the Page TopBar to load
+22:40:40.594 INFO  AUTOMATION - ? TopBar Has Successfully Loaded
+22:40:40.594 INFO  AUTOMATION - ? TopBar is Loaded
+22:40:40.595 INFO  AUTOMATION - ? Making Click in Products button
+22:40:41.748 INFO  AUTOMATION - ? The Products button has Been Clicked
+22:40:41.781 INFO  AUTOMATION - ? Navigation to Products Page successful. URL: https://www.automationexercise.com/products
+22:40:41.781 INFO  AUTOMATION - ? Verifying ProductsPage
+22:40:42.132 INFO  AUTOMATION - ? The ProductsPage Verification Passed
+22:40:42.133 INFO  AUTOMATION - ? Verifying Name and Price For Excel Products
+22:40:42.156 INFO  AUTOMATION - ? Products Found on the Page: 34
+22:40:42.156 INFO  AUTOMATION - ? Looking: Madame Top For Women - Expected Price: 1000
+22:40:42.559 DEBUG AUTOMATION - ? Product Matched: Madame Top For Women - Expected Price: 1000, Found: 1000
+22:40:42.560 INFO  AUTOMATION - after: Verify that a single product's details are correct, status: PASSED
+22:40:42.560 DEBUG AUTOMATION - ? Killing the WebDriver
+22:40:42.772 INFO  AUTOMATION - ? WebDriver closed successfully
+22:40:42.778 INFO  AUTOMATION - afterAll

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration status="WARN">
+    <Properties>
+        <Property name="pattern">%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</Property>
+    </Properties>
+    <appenders>
+        <File name="logsInfo" fileName="src/test/resources/logs/informativeLogs.log" append="false">
+            <PatternLayout pattern="${pattern}"/>
+        </File>
+        <File name="logsDebug" fileName="src/test/resources/logs/debugLogs.log" append="false">
+            <PatternLayout pattern="${pattern}"/>
+        </File>
+        <File name="logsTrace" fileName="src/test/resources/logs/traceLogs.log" append="false">
+            <PatternLayout pattern="${pattern}"/>
+        </File>
+    </appenders>
+    <loggers>
+        <root level="trace">
+            <appender-ref ref="logsInfo" level="info"/>
+            <appender-ref ref="logsDebug" level="debug"/>
+            <appender-ref ref="logsTrace" level="trace"/>
+        </root>
+    </loggers>
+</configuration>
