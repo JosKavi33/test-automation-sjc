@@ -4,10 +4,12 @@ Feature: Product Details Page
     Given The user navigates to the Products page
     Then The Products page loads correctly
 
+  @critical @regression @smoke
   Scenario: Verify the Product Details Page loads correctly
     When The user opens the first product details
     Then The user should see the Product Details page loaded
 
+  @normal @regression
   Scenario: Submit a product review
     When The user opens the first product details
     And The user submits a product review

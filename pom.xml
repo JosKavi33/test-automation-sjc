@@ -88,12 +88,13 @@
                 <executions>
                     <execution>
                         <id>generate-feature</id>
-                        <phase>generate-sources</phase>
+                        <phase>generate-test-sources</phase>
                         <goals>
                             <goal>java</goal>
                         </goals>
                         <configuration>
                             <mainClass>utilities.FeatureGeneratorFromExcel</mainClass>
+                            <classpathScope>test</classpathScope>
                         </configuration>
                     </execution>
                 </executions>

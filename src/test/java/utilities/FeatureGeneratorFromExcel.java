@@ -12,16 +12,18 @@ public class FeatureGeneratorFromExcel {
 
     public static void main(String[] args) {
         String excelPath = "src/test/resources/data/products/ItemDetails.xlsx";
-        String featurePath = "src/test/resources/features/generated/product_details.feature";
+        String featurePath = "src/test/resources/features/generated/productDetails.feature";
 
         File excelFile = new File(excelPath);
         if (!excelFile.exists()) {
+            Logs.debug("❌ Excel file not found: " + excelPath);
             System.err.println("❌ Excel file not found: " + excelPath);
             return;
         }
 
         List<ItemDetails> items = Poiji.fromExcel(excelFile, ItemDetails.class);
         if (items.isEmpty()) {
+            Logs.debug("❌ No data found in Excel file.");
             System.err.println("❌ No data found in Excel file.");
             return;
         }
@@ -52,6 +54,7 @@ public class FeatureGeneratorFromExcel {
             if (!parentDir.exists()) {
                 boolean created = parentDir.mkdirs();
                 if (!created) {
+                    Logs.debug("❌ Could not create directory: " + parentDir.getAbsolutePath());
                     System.err.println("❌ Could not create directory: " + parentDir.getAbsolutePath());
                     return;
                 }
@@ -62,6 +65,7 @@ public class FeatureGeneratorFromExcel {
                 System.out.println("✅ Feature file generated at: " + featureFilePath);
             }
         } catch (IOException e) {
+            Logs.debug("❌ Failed to write feature file: " + e.getMessage());
             System.err.println("❌ Failed to write feature file: " + e.getMessage());
         }
     }

@@ -21,30 +21,29 @@ the results with Allure.
 ## 📂 Project Structure
 
 ```
-📦 test-automation-sjc
- ┣ 📂 .github
- ┃ ┗ 📂 workflows         # GitHub Actions workflow file 
- ┣ 📂 scripts
- ┃ ┣ run_suite.sh         # Executes tests via Maven
- ┃ ┣ run_cucumber.sh      # Generates Cucumber Report
- ┃ ┗ run_allure.sh        # Generates Allure Report
- ┣ 📂 src
- ┃ ┣ 📂 main
- ┃ ┃ ┗ 📂 resources       # General configuration files (e.g., config.properties) 
- ┃ ┣ 📂 test
- ┃ ┃ ┣ 📂 java
- ┃ ┃ ┃ ┣ 📂 data          # JSON and Excel data readers
- ┃ ┃ ┃ ┣ 📂 hooks         # Hooks
- ┃ ┃ ┃ ┣ 📂 listeners     # Listeners
- ┃ ┃ ┃ ┣ 📂 models        # Data classes (POJOs)
- ┃ ┃ ┃ ┣ 📂 pages         # Page Object classes
- ┃ ┃ ┃ ┣ 📂 steps         # Step Definitions Cases
- ┃ ┃ ┃ ┣ 📂 principal     # Run Test
- ┃ ┃ ┃ ┗ 📂 utilities     # BasePage, driver setup, flows, logs
- ┃ ┃ ┣ 📂 resources       # Archivos como reportes, allure-results, etc.
- ┃ ┃ ┃ ┣ 📂 features      # Features Cases
- ┃ ┃ ┃ ┗ 📂 data          # JSON for login and Excel for test inputs
- ┣ 📜 pom.xml             # Maven project configuration and dependencies
+📆 test-automation-sjc
+ ┗ 📂 .github
+   ┗ 📂 workflows           # GitHub Actions workflow file
+ ┗ 📂 scripts
+   ├ run_suite.sh           # Executes tests with parameters and generates Allure report
+   ┗ run_allure.sh          # Opens Allure Report locally
+ ┗ 📂 src
+   ├ 📂 main
+   │ ┗ 📂 resources         # General configuration files (e.g., config.properties)
+   ┗ 📂 test
+     ├ 📂 java
+     │ ├ 📂 data            # JSON and Excel data readers
+     │ ├ 📂 hooks           # Hooks for setup and teardown
+     │ ├ 📂 listeners       # Test execution listeners
+     │ ├ 📂 models          # Data classes (POJOs)
+     │ ├ 📂 pages           # Page Object classes
+     │ ├ 📂 steps           # Step Definitions
+     │ ├ 📂 principal       # Main test runner class
+     │ ┗ 📂 utilities       # WebDriver setup, flows, logs, and feature generators
+     ┗ 📂 resources
+       ├ 📂 data            # JSON login files and Excel input data
+       ┗ 📂 features        # Cucumber feature files
+ ┗ 📌 pom.xml               # Maven project configuration and dependencies
 ```
 
 ---
@@ -55,126 +54,238 @@ the results with Allure.
 
 - Java 17+
 - Maven
-- Cucumber and JUnit dependencies
-- Allure plugin
+- Cucumber and JUnit 5 (already included in the `pom.xml`)
+- Allure CLI and plugin (ensure it's installed and configured)
 
 ### 🔹 Installation
 
-#### Clone the repository
+```bash
+# Clone the repository
+$ git clone https://github.com/JosKavi33/test-automation-sjc.git
+$ cd test-automation-sjc
 
-```
-https://github.com/JosKavi33/test-automation-sjc.git
-```
-
-### Install dependencies
-
-```
-mvn clean install
+# Install dependencies
+$ mvn clean install
 ```
 
 ---
 
-# 🧪 Running the Test Suite
+## ▶️ Running the Tests
 
-🔹 Run all tests
+This command compiles the project, executes the test suite using Maven, and generates an Allure report.
+You can customize the test run by passing parameters:
 
+```bash
+./scripts/run_suite.sh <group> <browser> <headless>
+
+# Example:
+./scripts/run_suite.sh @regression chrome true
 ```
-mvn clean test
+
+### Arguments:
+
+- `<group>`: The name of the test group to execute (as defined in tags or runners).
+- `<browser>`: The browser to use (e.g., chrome, edge).
+- `<headless>`: Whether to run in headless mode (`true` or `false`).
+
+📌 Example:
+
+```bash
+./scripts/run_suite.sh @smoke edge false
 ```
 
-This command will execute all tests in the project.
-
-🔹 Running Tests on GitHub Actions
-Every push or pull request to the main branch triggers the test suite on GitHub Actions. After execution:
-
-Allure reports are generated.
-
-The reports are uploaded as artifacts (downloadable ZIP).
-
-The reports are also deployed to GitHub Pages.
+This would run the `smoke` group using the Edge browser with UI (non-headless).
 
 ---
 
-# 📊 View the Allure Report
+## 📊 View the Allure Report Locally
 
-1. View the Allure Report from GitHub Actions
-   To download and view the Allure report:
-
-Go to the Actions tab on GitHub.
-
-Select the latest workflow run (it will show a ✅ or ❌ depending on the test results).
-
-Scroll down to the Artifacts section.
-
-Download the allure-report ZIP file.
-
-Extract the file and open the index.html file in your browser.
-
-⚠️ If the report does not load correctly locally, use the GitHub Pages link provided below.
-
-🌐 View the Allure Report via GitHub Pages
-You can directly access the latest Allure report from the following URL:
-
-```http
-https://your-username.github.io/cucumber-allure-automation/
+```bash
+./scripts/run_allure.sh
 ```
+
+🌐 This will automatically open the report in your default browser.
 
 ---
 
-# 🧪 Automatic Feature Generation from Excel
+## 🧪 Automatic Feature Generation from Excel
 
-To automatically generate .feature files from an Excel file, use the following Maven command:
+This project includes a powerful utility to automatically generate Cucumber `.feature` files from data stored in an
+Excel file. This allows for data-driven scenario creation without manually writing each case.
+
+### ✅ Why is this useful?
+
+- Eliminates repetitive manual work when defining scenarios.
+- Maintains consistency and accuracy by pulling data directly from a structured source (Excel).
+- Makes it easy for non-programmers or QA analysts to contribute by simply editing an Excel file.
+
+### ⚙️ How It Works
+
+The utility reads a predefined Excel file located at:
+
+```
+src/test/resources/data/products/ItemDetails.xlsx
+```
+
+It generates a `.feature` file at:
+
+```
+src/test/resources/features/generated/product_details.feature
+```
+
+Each row in the Excel sheet becomes an example in a Scenario Outline, dynamically populated.
+
+### ▶️ How to Run the Generator
+
+You can generate the `.feature` file in two ways:
+
+#### 1. From the terminal using Maven:
 
 ```bash
 mvn compile exec:java -Dexec.mainClass="utilities.FeatureGeneratorFromExcel"
 ```
 
-This command will read data from ItemDetails.xlsx and generate a corresponding .feature file.
+#### 2. Directly from your IDE:
+
+Open the `FeatureGeneratorFromExcel` class and click **Run** (or right-click > Run) to execute it.
+
+Ensure the `ItemDetails.xlsx` file exists and contains valid data before running the generator.
+
+💡 **Tip:** If you're using this in CI or as part of a pipeline, you can add this step before executing tests to always
+regenerate the `.feature` file with up-to-date data from Excel.
 
 ---
 
-# 🔄 GitHub Actions Workflow
+## ✅ Tested Functionalities
 
-Workflow Details
-The GitHub Actions workflow is configured to:
+### 🔹🔐 Authentication
 
-Trigger on push or pull request to the main branch.
+- ✅ **User Registration**
+- ✅ **Login**
 
-Compile the project and run tests using Maven.
+### 🔹🛒 Shopping Cart
 
-Generate the Cucumber and Allure reports.
+- ✅ **Add and remove products**
+- ✅ **Validate prices and quantities**
+- ✅ **Verify empty cart status**
 
-Upload the reports as artifacts for downloading.
+### 🔹🛍️ Products
 
-Publish the Cucumber report to GitHub Pages for easy access.
+- ✅ **Validate product info**
+- ✅ **Check product details**
+- ✅ **Compare prices against Excel data**
 
-This ensures that every change in the main branch is automatically tested and the results are available for review.
+### 🔹📨 Contact & Reviews
+
+- ✅ **Submit contact forms**
+- ✅ **Submit and validate product reviews**
 
 ---
 
-# ✨ Contributing
+## 🔄 GitHub Actions Workflow
+
+Every push or pull request to the main branch triggers the test suite via GitHub Actions. After execution:
+
+- 🔹 An Allure report is generated.
+- 🔹 The report is uploaded as an artifact (downloadable ZIP).
+- 🔹 The report is also deployed to GitHub Pages.
+
+📌 Note: You can customize the GitHub Actions workflow to add more steps, like uploading other artifacts or running Slack
+notifications.
+
+---
+
+# 🧾 Cucumber Report + Allure in GitHub Actions
+
+The automated execution in GitHub Actions generates two types of reports:
+
+## 📊 1. Cucumber HTML Report
+
+Generated by the maven-cucumber-reporting plugin.
+
+It can be found at the following path:
+
+```
+target/cucumber-html-reports/overview-features.html
+```
+
+This report shows detailed results by feature, scenario, and step, as well as execution statistics.
+
+## 🎨 2. Allure Report
+
+Generated by the allure-maven plugin.
+
+It is available as a downloadable artifact (allure-report.zip) and also deployed on GitHub Pages.
+
+It visualizes results with graphs, nested steps, attachments, screenshots, and more.
+
+### 📁 Where to find them?
+
+After the workflow in GitHub Actions runs:
+
+✅ Go to the Actions tab on GitHub.
+
+✅ Open the latest workflow run.
+
+✅ Scroll down to the Artifacts section, where you'll see:
+
+`cucumber-report → contains the Cucumber HTML report.`
+
+`allure-report → contains the Allure report.`
+
+Both can be downloaded and viewed locally.
+
+---
+
+## 📁 How to View Allure Report from GitHub Actions
+
+1. Go to the **Actions** tab.
+2. Select the latest workflow run (with ✅ or ❌).
+3. Scroll down to the **Artifacts** section.
+4. Download the `allure-report` ZIP.
+5. Extract it on your machine.
+6. Open `index.html` inside the extracted folder using your browser.
+
+⚠️ If the report does not load properly locally (e.g., shows 404 errors), use GitHub Pages instead.
+
+---
+
+## 🌐 View Allure Report via GitHub Pages
+
+You can access the latest report directly from:
+
+```http
+https://joskavi33.github.io/test-automation-sjc/
+```
+
+---
+
+## ✨ Contributing
 
 We welcome contributions! Fork the repository, create a new branch, and open a pull request. 🚀
 
 ---
 
-# 📄 License
+## 📄 License
 
 MIT License — You are free to use, modify, and distribute this code. 🚀
 
 ---
 
-# 👤 Author
+## 👤 Author
 
-Developed and maintained by Jose Cabrejo Villar.
+Developed and maintained by **Jose Cabrejo Villar**.
+
+GitHub: [JosKavi33](https://github.com/JosKavi33)
 
 ---
 
-# 🧠 Additional Notes
+## 🧠 Additional Notes
 
 This project uses Cucumber for BDD-style test cases and Allure for detailed visual reports.
 
-Make sure to update the Excel data file if you want to create new .feature files dynamically.
+Make sure to update the Excel data file if you want to create new `.feature` files dynamically.
 
 If you face issues with the Allure report, check for proper installation of the Allure plugin and ensure the Maven
 commands are executed correctly.
+
