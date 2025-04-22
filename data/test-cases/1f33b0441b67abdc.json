@@ -1,0 +1,162 @@
+{
+  "uid" : "1f33b0441b67abdc",
+  "name" : "Verify that a single product's details are correct",
+  "fullName" : "features/products/ProductPagePrices.feature:15",
+  "historyId" : "f7f1813553ab649faee7709d4aded5aa",
+  "time" : {
+    "start" : 1745359377457,
+    "stop" : 1745359381795,
+    "duration" : 4338
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.before(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359377457,
+      "stop" : 1745359377820,
+      "duration" : 363
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user navigates to the Products page",
+      "time" : {
+        "start" : 1745359377820,
+        "stop" : 1745359381400,
+        "duration" : 3580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The Products page loads correctly",
+      "time" : {
+        "start" : 1745359381400,
+        "stop" : 1745359381529,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check the details of \"Fancy Green Top\" with price 700",
+      "time" : {
+        "start" : 1745359381529,
+        "stop" : 1745359381721,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.after(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359381721,
+      "stop" : 1745359381794,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1055-594"
+  }, {
+    "name" : "thread",
+    "value" : "2090@fv-az1055-594.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Verify the product page and its details"
+  }, {
+    "name" : "story",
+    "value" : "Verify that a single product's details are correct"
+  }, {
+    "name" : "suite",
+    "value" : "Verify the product page and its details"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify that a single product's details are correct"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/products/ProductPagePrices.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.products.ProductPagePrices_feature.Verify the product page and its details"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "productName",
+    "value" : "Fancy Green Top"
+  }, {
+    "name" : "productPrice",
+    "value" : "700"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "smoke" ]
+  },
+  "source" : "1f33b0441b67abdc.json",
+  "parameterValues" : [ "Fancy Green Top", "700" ]
+}

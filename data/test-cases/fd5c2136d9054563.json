@@ -1,0 +1,162 @@
+{
+  "uid" : "fd5c2136d9054563",
+  "name" : "Verify that a single product's details are correct",
+  "fullName" : "features/products/ProductPagePrices.feature:13",
+  "historyId" : "660ff6edc4db3643249c01d40b8da3a7",
+  "time" : {
+    "start" : 1745359371715,
+    "stop" : 1745359374637,
+    "duration" : 2922
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.before(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359371715,
+      "stop" : 1745359372064,
+      "duration" : 349
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user navigates to the Products page",
+      "time" : {
+        "start" : 1745359372064,
+        "stop" : 1745359374322,
+        "duration" : 2258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The Products page loads correctly",
+      "time" : {
+        "start" : 1745359374323,
+        "stop" : 1745359374447,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check the details of \"Stylish Dress\" with price 1500",
+      "time" : {
+        "start" : 1745359374447,
+        "stop" : 1745359374561,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.after(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359374561,
+      "stop" : 1745359374637,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1055-594"
+  }, {
+    "name" : "thread",
+    "value" : "2090@fv-az1055-594.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Verify the product page and its details"
+  }, {
+    "name" : "story",
+    "value" : "Verify that a single product's details are correct"
+  }, {
+    "name" : "suite",
+    "value" : "Verify the product page and its details"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify that a single product's details are correct"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/products/ProductPagePrices.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.products.ProductPagePrices_feature.Verify the product page and its details"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "productName",
+    "value" : "Stylish Dress"
+  }, {
+    "name" : "productPrice",
+    "value" : "1500"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "smoke" ]
+  },
+  "source" : "fd5c2136d9054563.json",
+  "parameterValues" : [ "Stylish Dress", "1500" ]
+}

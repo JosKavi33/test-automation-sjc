@@ -1,0 +1,141 @@
+{
+  "uid" : "6e48516f2b9083a2",
+  "name" : "Verify that the Signup/Login page loads correctly",
+  "fullName" : "features/authentication/SignupLogin.feature:7",
+  "historyId" : "93a1e1a1a415cdf7edf6c8bdadd30d",
+  "time" : {
+    "start" : 1745359329222,
+    "stop" : 1745359331088,
+    "duration" : 1866
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.before(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359329222,
+      "stop" : 1745359329572,
+      "duration" : 350
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user navigates to the SignupLogin page",
+      "time" : {
+        "start" : 1745359329573,
+        "stop" : 1745359330847,
+        "duration" : 1274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should see the SignupLogin form correctly displayed",
+      "time" : {
+        "start" : 1745359330848,
+        "stop" : 1745359331013,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.after(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359331013,
+      "stop" : 1745359331088,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1055-594"
+  }, {
+    "name" : "thread",
+    "value" : "2090@fv-az1055-594.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Signup/Login Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify that the Signup/Login page loads correctly"
+  }, {
+    "name" : "suite",
+    "value" : "Signup/Login Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify that the Signup/Login page loads correctly"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/authentication/SignupLogin.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.authentication.SignupLogin_feature.Signup/Login Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "smoke" ]
+  },
+  "source" : "6e48516f2b9083a2.json",
+  "parameterValues" : [ ]
+}

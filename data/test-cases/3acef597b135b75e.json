@@ -1,0 +1,171 @@
+{
+  "uid" : "3acef597b135b75e",
+  "name" : "Validate that the account can be created successfully",
+  "fullName" : "features/account/AccountInformationPage.feature:7",
+  "historyId" : "c0ee661edb5e2e128a04cbf96d904fa1",
+  "time" : {
+    "start" : 1745359313719,
+    "stop" : 1745359326716,
+    "duration" : 12997
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.before(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359313721,
+      "stop" : 1745359321624,
+      "duration" : 7903
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user goes to the SignUpLogin page",
+      "time" : {
+        "start" : 1745359321665,
+        "stop" : 1745359323767,
+        "duration" : 2102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user fills out the signup form",
+      "time" : {
+        "start" : 1745359323767,
+        "stop" : 1745359324989,
+        "duration" : 1222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user fills out the account information form",
+      "time" : {
+        "start" : 1745359324989,
+        "stop" : 1745359326572,
+        "duration" : 1583
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user sees the Account Created confirmation",
+      "time" : {
+        "start" : 1745359326572,
+        "stop" : 1745359326630,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.after(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359326631,
+      "stop" : 1745359326714,
+      "duration" : 83
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1055-594"
+  }, {
+    "name" : "thread",
+    "value" : "2090@fv-az1055-594.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Account Information Page"
+  }, {
+    "name" : "story",
+    "value" : "Validate that the account can be created successfully"
+  }, {
+    "name" : "suite",
+    "value" : "Account Information Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate that the account can be created successfully"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/account/AccountInformationPage.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.account.AccountInformationPage_feature.Account Information Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "smoke" ]
+  },
+  "source" : "3acef597b135b75e.json",
+  "parameterValues" : [ ]
+}

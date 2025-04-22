@@ -1,0 +1,235 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "features",
+    "children" : [ {
+      "name" : "account.AccountInformationPage_feature.Account Information Page",
+      "children" : [ {
+        "name" : "Validate that the account can be created successfully",
+        "uid" : "3acef597b135b75e",
+        "parentUid" : "c39230a8368fe42dde948ed6dd3b1fb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1745359313719,
+          "stop" : 1745359326716,
+          "duration" : 12997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "account.AccountInformationPage_feature.Account Information Page"
+    }, {
+      "name" : "authentication",
+      "children" : [ {
+        "name" : "LoginPage_feature.Login Page",
+        "children" : [ {
+          "name" : "Validate that the user logs in successfully",
+          "uid" : "ac5f4146bf894a2e",
+          "parentUid" : "fbdafdd46b47dd7c1713fba88c3f0f46",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359326731,
+            "stop" : 1745359329208,
+            "duration" : 2477
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "LoginPage_feature.Login Page"
+      }, {
+        "name" : "SignupLogin_feature.Signup/Login Page",
+        "children" : [ {
+          "name" : "Verify that the Signup/Login page loads correctly",
+          "uid" : "6e48516f2b9083a2",
+          "parentUid" : "18139a4eef236d6c6dfc03801374b4b9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359329222,
+            "stop" : 1745359331088,
+            "duration" : 1866
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "SignupLogin_feature.Signup/Login Page"
+      } ],
+      "uid" : "5ab1673831fb2d050ed2b56f5cb27aa0"
+    }, {
+      "name" : "cart.CartPage_feature.Shopping Cart Page",
+      "children" : [ {
+        "name" : "Verify that the product links in the cart are correct",
+        "uid" : "ae27e6d8066ac52c",
+        "parentUid" : "1a86b333379b40bde0a3cc2f93953eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1745359331095,
+          "stop" : 1745359337380,
+          "duration" : 6285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cart.CartPage_feature.Shopping Cart Page"
+    }, {
+      "name" : "contactus.ContactUs_feature.ContactUsPage",
+      "children" : [ {
+        "name" : "Verify that the Contact Us page loads correctly",
+        "uid" : "3019d2367e60fdc5",
+        "parentUid" : "a58558145228dcf32df36b0af8c096be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1745359337386,
+          "stop" : 1745359340760,
+          "duration" : 3374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Send a message through the Contact Us form",
+        "uid" : "9b3a92c5584af457",
+        "parentUid" : "a58558145228dcf32df36b0af8c096be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1745359340765,
+          "stop" : 1745359344062,
+          "duration" : 3297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "contactus.ContactUs_feature.ContactUsPage"
+    }, {
+      "name" : "home.HomePage_feature.HomePage",
+      "children" : [ {
+        "name" : "Verify the HomePage UI",
+        "uid" : "cd2934aa6154a643",
+        "parentUid" : "9f8dd2f16eea4196f79a4ee74236f8a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1745359344069,
+          "stop" : 1745359345358,
+          "duration" : 1289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "home.HomePage_feature.HomePage"
+    }, {
+      "name" : "products",
+      "children" : [ {
+        "name" : "DetailsProductPage_feature.Product Details Page",
+        "children" : [ {
+          "name" : "Verify the Product Details Page loads correctly",
+          "uid" : "f6786e068c0d21e5",
+          "parentUid" : "931725482dcd50b75f77d8f2bcff6476",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359345365,
+            "stop" : 1745359349706,
+            "duration" : 4341
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Submit a product review",
+          "uid" : "4a3fa99ac38df2b6",
+          "parentUid" : "931725482dcd50b75f77d8f2bcff6476",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359349711,
+            "stop" : 1745359355079,
+            "duration" : 5368
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "DetailsProductPage_feature.Product Details Page"
+      }, {
+        "name" : "ProductAdded_feature.Products Page",
+        "children" : [ {
+          "name" : "Add multiple products to the shopping cart",
+          "uid" : "fa4d73373eeb524f",
+          "parentUid" : "d4b41971baebe9468e03ba8c4a0cabc5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359355087,
+            "stop" : 1745359371707,
+            "duration" : 16620
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ProductAdded_feature.Products Page"
+      }, {
+        "name" : "ProductPagePrices_feature.Verify the product page and its details",
+        "children" : [ {
+          "name" : "Verify that a single product's details are correct",
+          "uid" : "fd5c2136d9054563",
+          "parentUid" : "9ad5202c3bbfcf96aa7307883275c1de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359371715,
+            "stop" : 1745359374637,
+            "duration" : 2922
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Stylish Dress", "1500" ]
+        }, {
+          "name" : "Verify that a single product's details are correct",
+          "uid" : "fb89132053607f40",
+          "parentUid" : "9ad5202c3bbfcf96aa7307883275c1de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359374644,
+            "stop" : 1745359377453,
+            "duration" : 2809
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Summer White Top", "400" ]
+        }, {
+          "name" : "Verify that a single product's details are correct",
+          "uid" : "1f33b0441b67abdc",
+          "parentUid" : "9ad5202c3bbfcf96aa7307883275c1de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359377457,
+            "stop" : 1745359381795,
+            "duration" : 4338
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Fancy Green Top", "700" ]
+        }, {
+          "name" : "Verify that a single product's details are correct",
+          "uid" : "3020f67f8af85207",
+          "parentUid" : "9ad5202c3bbfcf96aa7307883275c1de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745359381798,
+            "stop" : 1745359385429,
+            "duration" : 3631
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Madame Top For Women", "1000" ]
+        } ],
+        "uid" : "ProductPagePrices_feature.Verify the product page and its details"
+      } ],
+      "uid" : "260afdf032cd8fc975e6fdea84630a10"
+    } ],
+    "uid" : "05c057f933be9add362d425b7a690409"
+  } ]
+}

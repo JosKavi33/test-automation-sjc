@@ -1,0 +1,141 @@
+{
+  "uid" : "ac5f4146bf894a2e",
+  "name" : "Validate that the user logs in successfully",
+  "fullName" : "features/authentication/LoginPage.feature:7",
+  "historyId" : "2e84fcf30c6d5d0a60aa63c849a5b434",
+  "time" : {
+    "start" : 1745359326731,
+    "stop" : 1745359329208,
+    "duration" : 2477
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.before(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359326731,
+      "stop" : 1745359327088,
+      "duration" : 357
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user goes to the Login page",
+      "time" : {
+        "start" : 1745359327088,
+        "stop" : 1745359328927,
+        "duration" : 1839
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be logged in and see the correct page",
+      "time" : {
+        "start" : 1745359328927,
+        "stop" : 1745359329135,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.after(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1745359329135,
+      "stop" : 1745359329208,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1055-594"
+  }, {
+    "name" : "thread",
+    "value" : "2090@fv-az1055-594.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Login Page"
+  }, {
+    "name" : "story",
+    "value" : "Validate that the user logs in successfully"
+  }, {
+    "name" : "suite",
+    "value" : "Login Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate that the user logs in successfully"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/authentication/LoginPage.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.authentication.LoginPage_feature.Login Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "smoke" ]
+  },
+  "source" : "ac5f4146bf894a2e.json",
+  "parameterValues" : [ ]
+}

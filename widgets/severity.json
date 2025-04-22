@@ -1,0 +1,141 @@
+[ {
+  "uid" : "f6786e068c0d21e5",
+  "name" : "Verify the Product Details Page loads correctly",
+  "time" : {
+    "start" : 1745359345365,
+    "stop" : 1745359349706,
+    "duration" : 4341
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4a3fa99ac38df2b6",
+  "name" : "Submit a product review",
+  "time" : {
+    "start" : 1745359349711,
+    "stop" : 1745359355079,
+    "duration" : 5368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac5f4146bf894a2e",
+  "name" : "Validate that the user logs in successfully",
+  "time" : {
+    "start" : 1745359326731,
+    "stop" : 1745359329208,
+    "duration" : 2477
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fb89132053607f40",
+  "name" : "Verify that a single product's details are correct",
+  "time" : {
+    "start" : 1745359374644,
+    "stop" : 1745359377453,
+    "duration" : 2809
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9b3a92c5584af457",
+  "name" : "Send a message through the Contact Us form",
+  "time" : {
+    "start" : 1745359340765,
+    "stop" : 1745359344062,
+    "duration" : 3297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3019d2367e60fdc5",
+  "name" : "Verify that the Contact Us page loads correctly",
+  "time" : {
+    "start" : 1745359337386,
+    "stop" : 1745359340760,
+    "duration" : 3374
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1f33b0441b67abdc",
+  "name" : "Verify that a single product's details are correct",
+  "time" : {
+    "start" : 1745359377457,
+    "stop" : 1745359381795,
+    "duration" : 4338
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3020f67f8af85207",
+  "name" : "Verify that a single product's details are correct",
+  "time" : {
+    "start" : 1745359381798,
+    "stop" : 1745359385429,
+    "duration" : 3631
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cd2934aa6154a643",
+  "name" : "Verify the HomePage UI",
+  "time" : {
+    "start" : 1745359344069,
+    "stop" : 1745359345358,
+    "duration" : 1289
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3acef597b135b75e",
+  "name" : "Validate that the account can be created successfully",
+  "time" : {
+    "start" : 1745359313719,
+    "stop" : 1745359326716,
+    "duration" : 12997
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6e48516f2b9083a2",
+  "name" : "Verify that the Signup/Login page loads correctly",
+  "time" : {
+    "start" : 1745359329222,
+    "stop" : 1745359331088,
+    "duration" : 1866
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ae27e6d8066ac52c",
+  "name" : "Verify that the product links in the cart are correct",
+  "time" : {
+    "start" : 1745359331095,
+    "stop" : 1745359337380,
+    "duration" : 6285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd5c2136d9054563",
+  "name" : "Verify that a single product's details are correct",
+  "time" : {
+    "start" : 1745359371715,
+    "stop" : 1745359374637,
+    "duration" : 2922
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fa4d73373eeb524f",
+  "name" : "Add multiple products to the shopping cart",
+  "time" : {
+    "start" : 1745359355087,
+    "stop" : 1745359371707,
+    "duration" : 16620
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]
