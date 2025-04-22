@@ -108,54 +108,6 @@ This would run the `smoke` group using the Edge browser with UI (non-headless).
 
 ---
 
-## 🧪 Automatic Feature Generation from Excel
-
-This project includes a powerful utility to automatically generate Cucumber `.feature` files from data stored in an
-Excel file. This allows for data-driven scenario creation without manually writing each case.
-
-### ✅ Why is this useful?
-
-- Eliminates repetitive manual work when defining scenarios.
-- Maintains consistency and accuracy by pulling data directly from a structured source (Excel).
-- Makes it easy for non-programmers or QA analysts to contribute by simply editing an Excel file.
-
-### ⚙️ How It Works
-
-The utility reads a predefined Excel file located at:
-
-```
-src/test/resources/data/products/ItemDetails.xlsx
-```
-
-It generates a `.feature` file at:
-
-```
-src/test/resources/features/generated/product_details.feature
-```
-
-Each row in the Excel sheet becomes an example in a Scenario Outline, dynamically populated.
-
-### ▶️ How to Run the Generator
-
-You can generate the `.feature` file in two ways:
-
-#### 1. From the terminal using Maven:
-
-```bash
-mvn compile exec:java -Dexec.mainClass="utilities.FeatureGeneratorFromExcel"
-```
-
-#### 2. Directly from your IDE:
-
-Open the `FeatureGeneratorFromExcel` class and click **Run** (or right-click > Run) to execute it.
-
-Ensure the `ItemDetails.xlsx` file exists and contains valid data before running the generator.
-
-💡 **Tip:** If you're using this in CI or as part of a pipeline, you can add this step before executing tests to always
-regenerate the `.feature` file with up-to-date data from Excel.
-
----
-
 ## ✅ Tested Functionalities
 
 ### 🔹🔐 Authentication
