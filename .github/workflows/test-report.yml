@@ -38,7 +38,7 @@ jobs:
         run: chmod +x ./mvnw
 
       - name: 🚀 Run test suite and generate Allure report
-        run: ./scripts/run_suite.sh
+        run: ./scripts/run_suite.sh @regression
 
       - name: 🗂️ Upload Allure Report
         uses: actions/upload-artifact@v4
